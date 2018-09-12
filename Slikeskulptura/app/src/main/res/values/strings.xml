@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Slike skulptura</string>
+
+    <!--Imena kategorija-->
+    <string name="prvih_petnaest">1-15</string>
+    <string name="drugih_petanest">15-30</string>
+    <string name="trecih_petnaest">30-45</string>
+    <string name="cetvrtih_petnaest">45-60</string>
+
+
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tan_background"
+    android:minHeight="88dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="88dp"
+        tools:src="@drawable/cvet"
+        android:scaleType="fitXY"
+        android:layout_height="88dp" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+        
+        <TextView
+            android:id="@+id/ime_vajara"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:background="#000"
+            tools:text="Petar petrovic"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/naziv_i_godina"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            tools:background="#000"
+            tools:text="Petar petrovic (1971,)"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

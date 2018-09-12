@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color> <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#303F9F</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for 30-45 category -->
+    <color name="category_30_45">#FD8E09</color>
+
+    <!-- Background color for 15-30 category -->
+    <color name="category_15_30">#379237</color>
+
+    <!-- Background color for the 1-15 category -->
+    <color name="category_1_15">#8800A0</color>
+
+    <!-- Background color for 45-60 category -->
+    <color name="category_45_60">#16AFCA</color>
+</resources>
